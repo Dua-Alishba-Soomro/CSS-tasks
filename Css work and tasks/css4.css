@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(234, 216, 252) ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.parent_list{
+background-color: rgb(201, 253, 253);
+   width: 600px;
+   padding: 10px;
+   text-align: center;
+}
+
+h1{
+    border: white;
+    background-color: rgb(189, 189, 255);
+    height: 40px;
+}
+ul li{
+    color:rgb(0, 0, 0) ;
+    font-weight: 900;
+    
+    background-color: rgb(73, 175, 139);
+    border-radius: 15px;
+    padding: 3px;
+    margin-top:10px ;
+    width: 500px;
+    list-style-type: none;
+
+}
+
+
+
+.list_one{
+    list-style-image:url(pic11.jpeg);
+}
+
+.list_two{
+    list-style-image:url(chat2.jpeg);
+    
+}
+
+.list_three{
+    list-style-image:url(pic11.jpeg);
+}
+
+.list_four{
+    list-style-image:url(chat2.jpeg);
+}
+
+.list_five{
+    list-style-image:url(pic11.jpeg);
+}
+
+

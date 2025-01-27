@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-color:rgb(46, 54, 52) ;
+    display: flex;
+    justify-content: center;
+
+} 
+.parent_list{
+background-color: rgb(255, 255, 255);
+   width: 600px;
+   padding: 10px;
+   text-align: center;
+} 
+ul li{
+    color:rgb(0, 0, 0) ;
+    font-weight: 900;
+    
+    background-color: rgb(73, 175, 139);
+    border-radius: 15px;
+    padding: 5px;
+    margin-top:10px ;
+    width: 500px;
+    list-style-type: none;
+    font-size: 18px ; }
+
+.list_one{
+    background-color:rgb(188, 230, 255); 
+    list-style-image:url(chat2.jpeg);
+    float: left;
+   
+}
+   
+.list_two{
+    background-color:  rgb(0, 141, 212);
+    list-style-image:url(pic11.jpeg);
+    float: right;
+} 
+.list_three{
+    background-color:  rgb(188, 230, 255);
+    list-style-image:url(chat2.jpeg);
+    float:left;
+}  
+
+.list_four{
+    background-color:  rgb(0, 141, 212);
+    list-style-image:url(pic11.jpeg);
+    float: right;
+}
+.list_five{
+    background-color:  rgb(188, 230, 255);
+    list-style-image:url(chat2.jpeg);
+    float: left;
+}
+.list_six{ 
+    background-color:  rgb(0, 141, 212);
+    list-style-image:url(pic11.jpeg);
+    float: right;
+}
+.list_seven{ 
+    background-color:  rgb(188, 230, 255);
+    list-style-image:url(chat2.jpeg);
+    float: left;
+}
+input[type=text]{
+  width: 300px;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid #131313;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=button]{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    background-color: rgba(0, 3, 83, 0.645);
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="parent_list">
+        <h1 > Online chat with call center agent </h1>
+        <ul> 
+            <li class="list_one"><h3> Hello!, this is weatherWise helpline, how can i assist you today ? </h3> </li>
+            <li class="list_two"><h3>Hi, I wanted to check the weather forecast for tomorrow New York City? </h3></li>
+            <li class="list_three"><h3> Thank you, New York is expacted to have clear skies in morning, with temperature around 45'F. In the afternoon, it might get cloudy, but no rain is forecasted </h3> </li>
+            <li class="list_four"><h3> thats great to hear, what about the wind? </h3></li>
+            <li class="list_five"><h3> Winds will be light, around 5 to 10 mph, so nothing major to worry about. </li>
+            <li class="list_six"><h3> Perfect! Thank you for your update. </h3></li>
+            <li class="list_seven"><h3> You're Welcome! Have a great day!!  </h3></li>
+        </ul>
+        <input type="text" id="text" name="frame" placeholder="Type Message......">
+        <input type="button" id="submit" value="send" placeholder="send">
+
+    </div>
+</body>
+</html>

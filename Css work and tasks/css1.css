@@ -1,0 +1,14 @@
+body{
+ background-image: url("paint.jpg");
+ 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 400px;
+   background-position: 500px;
+}
+p{
+   color: rgb(4, 4, 4);
+}
+h1{
+    color: black;
+}

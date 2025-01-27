@@ -1,0 +1,36 @@
+img{
+    width: 500px;
+    height: 300px;
+    float: right; 
+    
+}
+
+/* .container{
+    border: 2px solid black;
+    overflow: auto;i }*/
+
+.para{
+    clear: both;
+}
+
+.heading-one::first-letter {
+    font-size:80px ;
+    color: red;
+
+}
+.heading-one::first-line{
+    background-color: yellow;
+    border: 1px solid yellow;
+    text-decoration: underline 4px red;
+
+}
+.heading-one::before{
+    display: inline;
+    width: 300px;
+    height: 280px;
+    background-image: url(paint.jpg);
+    background-repeat: no-repeat;
+  
+
+    
+}

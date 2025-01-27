@@ -1,0 +1,33 @@
+.par1{
+     background-color: rgb(118, 216, 216);
+     background-position: left;
+     border-style: solid;
+     border-width: 5px;
+     border-radius: 10px;
+     border-color: rgb(251, 243, 10);
+     background-size: 200px ;
+     margin-top: 5px;
+}
+
+.par2{
+    background-color: rgb(253, 165, 227);
+    background-position: left;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: rgb(0, 108, 108);
+    background-size: 200px ;
+    margin-top: 10px;
+}
+
+.par3{
+    background-color: rgb(224, 162, 251);
+    background-position: left;
+    border-style: dashed;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(72, 109, 242);
+    margin-top: 10px;
+    background-size: 200px ;
+    
+}

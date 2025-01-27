@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                height: 1000px;
+            }
+         .Parent-absolute{
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            margin-top: 100px;
+            border: 1px solid black;
+            position: relative; 
+         }
+         .absolute{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border: 1px solid black;
+           /* position: absolute;*/ 
+            top: 50px;
+            left: 50px;
+         }
+         .two{
+            width: 100px;
+            height: 100px;
+            background: green;
+            background: green;
+            position: sticky; 
+            top: 100px;
+            left: 200px;
+
+         }
+         
+         .btn-parent{
+            width: 80px;
+            padding: 5px;
+            background-color: blueviolet;
+            text-align: center;
+            border-radius: 10px;
+            transition-property: width;
+            transition-duration: 4s ;
+           /*transition-delay: 2s;*/
+            transition-timing-function: ease;
+           animation: ;
+            
+
+         }
+         .btn{
+            color: white;
+            border-radius: 5px;
+         }
+         .btn-parent:hover{
+            width: 400px;
+            background-color: yellow
+
+         }
+         @keyframes cssAnimation {
+            /* from{
+             width: 400px;
+            }
+            to{
+                width: 600px;
+            } */ 
+
+            0%{
+                position:relative;
+                left: 200px;
+            }
+            25%{
+                position: relative;
+                left: 300px;
+                transform: rotate(60deg);
+            
+            }
+            75%{
+                position: relative;
+                left: 400px;
+                transform: rotate(90deg);
+            }
+            100%{
+                position: relative; 
+                left: 500px;
+                transform: rotate(180deg);
+            }
+         }
+         .ani-parent{
+          width:80px ;
+          background-color: blue;
+          text-align: center;
+          padding: 5px;
+          border-radius: 10px;
+          animation-name: cssAnimation;
+          animation-duration: 4s;
+          animation-timing-function: ease-in;
+          animation-iteration-count: infinite;
+          animation-delay: 2s;
+          animation-direction: alternate-reverse;
+         }
+         @keyframes changebackground {
+            10%{
+                background-color: red;
+                border-radius: 10%;
+            }
+            20%{
+                background-color: green;
+                border-radius: 20%;
+            }
+            30%{
+                background-color: rgb(0, 0, 0);
+                border-radius: 30%;
+            }
+            40%{
+                background-color: yellow;
+                border-radius: 40%;
+            }
+            50%{
+                background-color: red;
+                border-radius: 50%;
+            }
+            60%{
+                background-color: blue;
+                border-radius: 60%;
+            }
+            
+            70%{
+                background-color:blueviolet;
+                border-radius: 70%;
+            }
+            
+            80%{
+                background-color: purple;
+                border-radius: 60%;
+            }
+            90%{
+                background-color: palevioletred;
+                border-radius: 50%;
+            }
+            
+            100%{
+                background-color: green;
+                border-radius: 40%;
+            }
+            
+            
+         }
+
+         .ball{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            border-radius: 50px;
+            border: 1px solid green;
+            animation-name: changebackground;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+         }
+         
+
+        
+        </style>
+    </head>
+    <body>
+    <!-- Absolute -->
+     
+     <div class="Parent-absolute">
+      <div class="absolute">
+        
+          
+       </div>
+       <div class="two">
+
+       </div>
+     </div>
+
+     <!--Css transform -->
+     <div class="btn-parent">
+        <button class="btn"> Button </button>
+     </div>
+    
+
+    <!--Css Animation -->
+    <div class="ani-parent">
+        <button class="ani"> Facebook </button>
+    </div>
+
+    <div class="ball">
+        
+    </div>
+</body>
+</html>

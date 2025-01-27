@@ -1,0 +1,91 @@
+.container{
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+}
+.user-one{
+    list-style-image: url(chat-modified.jpg);
+    background-color: rgb(0, 30, 44);
+    color: aliceblue;
+    width: 170px;
+    border-radius: 5px;
+    margin-left :40px ;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: left;
+}
+.user-two{
+    list-style-image: url(paint2-modified.jpg);
+    background-color: rgb(0, 105, 154);
+    color: aliceblue;
+    width: 170px;
+    border-radius: 5px;
+    margin-left: 160px ;
+    margin-top: 2px;
+
+}
+
+.Bottom{
+    text-align: end;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin-top: 160px;
+    width: auto;
+    height: 40px;
+}
+
+input[type=text]{
+
+    width: 250px;
+    height: 30px;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 2px;
+    padding-left: 2px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+input[type=button]{
+   margin-top: 2px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(0, 91, 9);
+    font-size: large;
+    color: aliceblue;
+    border-radius: 8px;
+    text-align:center;
+}
+
+.button{
+   color: rgb(0, 0, 0);
+   font-size: large;
+   margin: 20px;
+   padding: 20px;
+   text-align: center;
+   background-color:  rgb(0, 52, 52);
+
+}
+
+.Bottom-two{
+    margin: 80px;
+    padding: 20px;
+    font-size: large;
+    background-color: rgb(0, 52, 52);
+    text-align: center;
+} 
+
+.para{
+    border: 2px solid black;
+    background-color: rgb(255, 230, 196);
+    opacity: 50px;
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+    font-size: large;
+    color: black;
+
+}
